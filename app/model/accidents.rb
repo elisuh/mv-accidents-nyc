@@ -1,6 +1,0 @@
-class Accidents
-
-
-
-
-end

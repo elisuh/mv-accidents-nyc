@@ -13,9 +13,9 @@ RSpec::Core::RakeTask.new(:spec)
 
 
 
-desc 'Start IRB with application environment loaded'
+desc 'Start PRY with application environment loaded'
 task "console" do
-  exec "irb -r ./config/environment"
+  exec "pry -r ./config/environment"
 end
 
 
